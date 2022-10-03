@@ -1,0 +1,41 @@
+
+.form-chamados-add {
+  .status {
+    display: flex;
+    flex-direction: row;
+
+    div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .radio-option {
+        margin: 0;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+
+      &:not(:first-child){
+        margin-left: 1.5rem;
+      }
+
+      input[type='radio']{
+        margin-right: 0.5rem;
+        margin-bottom: 0;
+        accent-color: #181C2E;
+        cursor: pointer;
+      }
+    }
+  }
+
+  textarea {
+    height: 7rem;
+    resize: none;
+  }
+
+
+  label:not(:first-child) {
+    margin-top: 1.5rem;
+  }
+}
